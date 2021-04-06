@@ -1,3 +1,3 @@
 # foods
 
-Landing page for foods restaurant
+Landing page for a foods restaurant
