@@ -142,3 +142,74 @@ html {
   box-shadow: -0.2rem -0.2rem -0.2rem #000;
 }
 /* End of Section 2 */
+
+/* Section 3 */
+.section-3 {
+  background-color: #333;
+  padding: 5rem 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+
+.gallery-link {
+  position: relative;
+  margin: 4rem 1rem;
+}
+
+.gallery-link::before {
+  content: "";
+  position: absolute;
+  width: 0.2rem;
+  height: 80%;
+  background-color: #fff;
+  left: 90%;
+  top: 2vw;
+}
+
+.gallery-link::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.2rem;
+  background-color: #fff;
+  left: 2rem;
+  top: 30%;
+}
+
+.gallery-img {
+  width: 24vw;
+  height: 15vw;
+  object-fit: cover;
+  box-shadow: 0.3rem 0.3rem 1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946,
+    0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem #e92999;
+}
+
+.food-name {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.gallery-description {
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+/*End of Section 3*/
